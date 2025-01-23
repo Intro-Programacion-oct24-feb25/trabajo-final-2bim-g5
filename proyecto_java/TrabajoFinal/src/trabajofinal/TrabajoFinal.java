@@ -15,6 +15,9 @@ public class TrabajoFinal {
     /**
      * @param args the command line arguments
      */
+        
+    public static String cadena = "";
+    
     public static void main(String[] args) {
         // TODO code application logic here
 
@@ -27,7 +30,7 @@ public class TrabajoFinal {
             System.out.println("Ingrese un numero: ");
             num = entrada.nextInt();
             if (num == 1) {
-                //funcoregistrarParticipanteFutbol
+               // funcoregistrarParticipanteFutbol(cadena);
                 contador[0] = contador[0] + 1;
             } else {
                 if (num == 2) {
