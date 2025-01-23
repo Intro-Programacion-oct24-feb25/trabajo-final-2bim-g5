@@ -4,8 +4,8 @@
  */
 package PaqueteFutbol;
 
-import java.util.Scanner;
-import trabajofinal.TrabajoFinal;
+//import java.util.Scanner;
+//import trabajofinal.TrabajoFinal;
 
 
 /**
@@ -13,7 +13,7 @@ import trabajofinal.TrabajoFinal;
  * @author Alejandro
  */
 public class ParticipanteFutbol {
-    public static void funcoregistrarParticipanteFutbol (String cadena) {
+   /* public static void funcoregistrarParticipanteFutbol (String cadena) {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Ingrese el Nombre del participante: ");
@@ -32,6 +32,6 @@ public class ParticipanteFutbol {
         String equipo = entrada.nextLine();
         
         cadena = cadena;
-        
-    }
+        */
+   // }
 }
