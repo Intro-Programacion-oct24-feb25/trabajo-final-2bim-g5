@@ -57,23 +57,23 @@ public class TrabajoFinal {
                         contador[1] = contador[1] + 1;
                     } else {
                         if (num == 3) {
-                            PaqueteAtle.registrarParticipanteAtletismo(cadena);
+                            cadena =PaqueteAtle.registrarParticipanteAtletismo(cadena);
                             contador[2] = contador[2] + 1;
                         } else {
                             if (num == 4) {
-                                ParticipanteBas.registrarParticipanteBasquetbol(cadena);
+                                cadena = ParticipanteBas.registrarParticipanteBasquetbol(cadena);
                                 contador[3] = contador[3] + 1;
                             } else {
                                 if (num == 5) {
-                                    ParticipanteCicli.registrarParticipanteCiclismo(cadena);
+                                    cadena = ParticipanteCicli.registrarParticipanteCiclismo(cadena);
                                     contador[4] = contador[4] + 1;
                                 } else {
                                     if (num == 6) {
-                                        ParticipantesTenis.registrarParticipanteTenis(cadena);
+                                        cadena =ParticipantesTenis.registrarParticipanteTenis(cadena);
                                         contador[5] = contador[5] + 1;
                                     } else {
                                         if (num == 7) {
-                                            ParticipanteYoga.registrarParticipanteYoga(cadena);
+                                            cadena = ParticipanteYoga.registrarParticipanteYoga(cadena);
                                             contador[6] = contador[6] + 1;
                                         } else {
                                             System.out.print("lo sentimos, el club no tiene esa opción.\n");
