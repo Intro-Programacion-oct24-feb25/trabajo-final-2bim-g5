@@ -7,6 +7,7 @@ package trabajofinal;
 
 
 
+
 import java.util.Scanner;
 import paquetefutbol.ParticipanteFut;
 import paquetenatacion.ParticipanteNat;
